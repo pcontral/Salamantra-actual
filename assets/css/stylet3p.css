@@ -1,0 +1,81 @@
+*{
+    padding: o;
+    margin: 0;
+}
+
+body {
+    justify-content: center;
+    background-image: url('../img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+h1 {
+    text-align: center;
+}
+hr {
+    margin: auto;
+    size-adjust: 10px;
+}
+
+main {
+    width: 90vw;
+    display: flex;
+    margin: auto;
+    *background-color: rgb(218, 170, 153);
+    justify-content: space-around;
+    
+}
+
+aside {
+    width: 20%;
+}
+
+#esdh {
+    margin: 30px;
+}
+
+#esdh img {
+    width: 100%;
+}
+
+#bufy {
+    margin: 30px;
+}
+
+#bufy img {
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 25px;
+    font-size: 40px;
+    *text-align: center;
+}
+
+#productos {
+    width: 75%;
+    margin: 30px;
+}
+
+#productos p {
+    
+    font-size: xx-large;
+    margin: 15px 0px;
+    margin-right: 220px;
+}
+
+.colum-row {
+   display: flex;
+   
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+footer p {
+    color: white;
+}
