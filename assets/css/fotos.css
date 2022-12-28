@@ -25,6 +25,7 @@ h2 {
     *text-align: center;
 }
 #productos {
+    flex-wrap: wrap;
     width: 75%;
     margin:auto;
 }
@@ -39,6 +40,7 @@ h2 {
 .colum-row {
     margin: 15px;
     display: flex;
+    *flex-wrap: wrap;
     
  }
  
