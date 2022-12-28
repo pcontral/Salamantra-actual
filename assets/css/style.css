@@ -10,11 +10,12 @@ body {
     background-size: cover;
     }
 
-h1 {
-    text-align: center;
-    padding-top: 30px;
-    *background-color: azure;
-}
+    h1 {
+        text-align: center;
+        padding-top: 24px;
+        background-color: azure;
+        font-size: x-large;
+    }
 
 main {
     width: 90vw;
@@ -65,6 +66,7 @@ aside {
 }
 
 h2 {
+    font-size: 26px;
     padding: 20px;
     background-color: beige;
 }
@@ -77,12 +79,20 @@ h3 {
     font-weight: bold;
 }
 
+article {
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+}
+
 #img3 {
-    width: 60%;
-    margin: auto;
+    width: 80%;
+    margin: 15px;
+    justify-content: center;
 }
 
 #img3 img {
+  
     width: 100%;
 }
 
@@ -113,4 +123,28 @@ footer {
 
 footer p {
     color: white;
+}
+
+/* MEDIA QUERY PARA GENERAR BEACKPOINT PARA APORTE EN LA RESPONSIVIDAD */
+@media (max-width: 1020px)
+{
+    aside{
+        display: none;
+    }
+    
+    #principal{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #productos {
+        width: 100% !important;
+    }
+
+    #productos p {
+        font-size: 18px;
+    }
+    
+
 }

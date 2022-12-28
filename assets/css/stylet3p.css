@@ -27,7 +27,7 @@ main {
     
 }
 
-aside {
+/* aside {
     width: 20%;
 }
 
@@ -45,30 +45,37 @@ aside {
 
 #bufy img {
     width: 100%;
-}
+} */
 
 h2 {
     margin-bottom: 25px;
-    font-size: 40px;
+    font-size: 24px;
     *text-align: center;
 }
 
 #productos {
-    width: 75%;
+    width: 95%;
     margin: 30px;
 }
 
 #productos p {
-    
-    font-size: xx-large;
+    width: 90%;
+    font-size: 24px;
     margin: 15px 0px;
     margin-right: 220px;
+    
 }
 
+/* SE INSERTO WRAP PARA IMPEDIR EL COLAPSO DE LA PAGINA EN DISTINTAS PANTALLAS */
 .colum-row {
-   display: flex;
-   
-}
+    display: flex;
+    flex-wrap: wrap;
+    
+ }
+ 
+ .colum-row img {
+     width: 300px;
+ } 
 
 footer {
     display: flex;
@@ -78,4 +85,23 @@ footer {
 
 footer p {
     color: white;
+}
+
+/* MEDIA QUERY PARA GENERAR BEACKPOINT PARA APORTE EN LA RESPONSIVIDAD */
+@media (max-width: 1020px)
+{
+    aside{
+        display: none;
+    }
+    
+    #principal{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+   
+    #productos p {
+        font-size: 18px;
+    }
 }

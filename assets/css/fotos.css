@@ -10,6 +10,7 @@ body {
     background-size: cover;
     }
 
+/* CENTRAR CONTENIDO DEL H1 */
 h1 {
     text-align: center;
 }
@@ -20,27 +21,32 @@ hr {
 
 h2 {
     margin-bottom: 25px;
-    font-size: 40px;
+    font-size: 24px;
     *text-align: center;
 }
-
 #productos {
     width: 75%;
     margin:auto;
 }
 
 #productos p {
-    
-    font-size: xx-large;
+    *flex-wrap: wrap;
+    font-size: 18px;
     margin: 15px 0px;
     margin-right: 220px;
 }
 
 .colum-row {
-   display: flex;
-   margin-bottom: 25px;
-   
-}
+    margin: 15px;
+    display: flex;
+    
+ }
+ 
+ .colum-row img {
+     padding: 15px;
+     width: 300px;
+     *flex-wrap: wrap;
+ }
 
 .colum-row img:hover {
     scale: 1.7;
